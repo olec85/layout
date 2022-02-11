@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background: #222222;
+    height: 76px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+    padding-left: 4px;
+}
+.header-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 33px;
+    align-items: center;
+    padding-right: 4px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 71px;
+    background: #F1E4E6;
+    height: 764px;
+}
+.man-text{
+    width: 377px;
+    height: 93px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 12px;
+}
+.colortext-man{
+    font-size: 32px;
+    line-height: 38px;
+    color: #F16D7F;
+
+}
+.man{
+    margin-left: -207px;
+}
+.brand{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+.lux{
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.content-info{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+.for-woman{
+    background-image: url(image/for\ woman.jpg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    padding-top: 105px;
+}
+.for-man{
+    background-image: url(image/for\ man.jpg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    padding-top: 105px;
+}
+.for-kids{
+    background-image: url(image/for\ kids.jpg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    padding-top: 105px;
+}
+.colortext{
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.accesories{
+  background-image: url(image/accesories.jpg);  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+  text-align: center;
+  padding-top: 55px;
+  margin-top: -175px;
+}
+.colortext-lux{
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.brand-lux{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 35px;
+    color: #222222;
+}
+.button{
+    background:transparent;
+    border: none;
+    padding: 0;
+}
+.button-counts{
+    background: #F16D7F;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 2px 6px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 21px;
+    right: -7px;
+}
+.button-item{
+    position: relative;
+}
