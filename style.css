@@ -27,6 +27,61 @@
     align-items: center;
     padding-right: 4px;
 }
+.mega-box{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 232px;
+    margin-top: 12px;
+    flex-direction: column;
+}
+.vector{
+    position: absolute;
+    margin-left: 139px;
+    margin-top: 16px;
+}
+.mega-item{
+    margin-left: 32px;
+}
+.mega-menu{
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 24px;
+    padding-top: 37px;
+}
+.mega-heading{
+    margin-bottom: 14px;
+    color: #F16D7F;
+    font-size: 14px;
+}
+.mega-box::before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 35px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e8e8e8 ;
+    border-left: 1px solid #e8e8e8;
+}
+.mega-link{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 11px;
+    margin-left: 21px;
+}
+.menu-list:hover .mega-box{
+    display: flex;
+}
+.mega-link:hover{
+    color: #F16D7F;
+}
 .content{
     display: flex;
     align-items: center;
@@ -56,10 +111,13 @@
     line-height: 58px;
     color: #222222;
 }
-.lux{
+.of{
     font-size: 32px;
-    line-height: 38px;
     color: #222222;
+}
+.fashion{
+    font-size: 32px;
+    color: #F16D7F;
 }
 .content-info{
     display: flex;
@@ -95,9 +153,10 @@
     line-height: 29px;
     color: #F16D7F;
 }
-p{
+.off{
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
     color: #FFFFFF;
 }
 .accesories{
@@ -136,4 +195,141 @@ p{
 }
 .button-item{
     position: relative;
+}
+.content-shop{
+    text-align: center;
+}
+.fetured{
+    display: block;
+    font-size: 30px;
+    color: #222222;
+}
+.shop{
+    display: block;
+    font-size: 14px;
+    color: #9F9F9F;
+    margin-top: 6px;
+    margin-bottom: 48px;
+}
+.content-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 30px;
+    margin-bottom: 48px;
+}
+.grid-bg{
+    background: #F8F8F8;
+}
+.grid{
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.grid-title{
+    font-weight: 300;
+    font-size: 14px;
+    color: #5D5D5D;
+}
+.price{
+    font-size: 16px;
+    color: #F16D7F;
+    margin-top: 18px;
+    display: block;
+    padding-bottom: 20px;
+}
+.button-browse{
+    margin-left: 477px;
+    padding: 15px 39px;
+    border: 1px solid #F26376;
+    color: #F26376;
+    background: #E5E5E5;
+    margin-bottom: 95px;
+}
+.footer-free{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #222224;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+.free{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 44px;
+    height: 31px;
+    padding-top: 103px;
+    margin-left: 45%;
+    padding-bottom: 28px;
+}
+.free-footer{
+    text-align: center;
+    font-size: 19.96px;line-height: 24px;
+    color: #FBFBFB;
+    margin-bottom: 16px;
+}
+.footer-title{
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-bottom: 104px;
+}
+.footer-sub{
+    background-image: url(image/Layer\ 41.jpg);
+    background-repeat: no-repeat;
+    height: 448px;
+    display: flex;
+}
+.inter{
+    width: 96px;
+    height: 96px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    margin-top: 97px;
+}
+.footer-sub-left{
+    margin-left: 230px;
+}
+.vest{
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+}
+.footer-sub-right{
+    margin-left: 223px;
+    display: flex;flex-direction: column;
+}
+.sub{
+    display: block;
+    margin-top: 150px;
+    font-size: 24px;
+    text-align: center;
+    color: #222224;
+}
+.for{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    color: #222224;
+}
+.footer{
+    display: block;
+    height: 79px;
+    background: #222224;
+}
+.networks{
+    float: right;
+    margin-top: -21px;
+    display: block;
+}
+.copy{
+    font-size: 16px;
+    color: #FBFBFB;
+    display: block;
+    margin-left: 13px;
+    padding-top: 27px;
 }
