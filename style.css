@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    font-family: 'Lato', sans-serif;
+}
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -26,6 +29,42 @@
     gap: 33px;
     align-items: center;
     padding-right: 4px;
+}
+.header-new{
+    display: flex;
+    justify-content: space-between;
+    background: #F8F3F4;
+    padding: 0px 3px;
+}
+.new{
+    padding-top: 59px;
+    padding-bottom: 60px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #F16D7F;
+    display: block;
+}
+.header-home{
+    margin-top: 65px;
+    display: flex;
+}
+.link{
+    display: flex;
+}
+.link a{
+    text-decoration: none;
+}
+.link li{
+    list-style-type: none;
+}
+
+.hom{
+    font-size: 14px;
+    color: #636363;
+}
+.arriva{
+    font-size: 14px;
+    color: #F16D7F;
 }
 .mega-box{
     display: none;
@@ -76,9 +115,6 @@
     margin-bottom: 11px;
     margin-left: 21px;
 }
-.menu-list:hover .mega-box{
-    display: flex;
-}
 .mega-link:hover{
     color: #F16D7F;
 }
@@ -100,7 +136,6 @@
     font-size: 32px;
     line-height: 38px;
     color: #F16D7F;
-
 }
 .man{
     margin-left: -207px;
@@ -199,10 +234,15 @@
 .content-shop{
     text-align: center;
 }
+.fs{
+    display: flex;
+    flex-direction: column;
+}
 .fetured{
     display: block;
     font-size: 30px;
     color: #222222;
+    margin-left: 464px;
 }
 .shop{
     display: block;
@@ -210,59 +250,105 @@
     color: #9F9F9F;
     margin-top: 6px;
     margin-bottom: 48px;
+    margin-left: 400px;
 }
-.content-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px 30px;
+.item-box{
+    margin-top: 48px;
     margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
-.grid-bg{
-    background: #F8F8F8;
+.contont-item{
+    width: 360px;
+    position: relative;
+    margin-bottom: 30px;
 }
-.grid{
+.item-pic{
+    width: 100%;
+}
+.contont-item:hover {
+    box-shadow: 0 5px 8px rgba(244, 244, 244, 0.9);
+}
+.contont-item:hover .item-pic{
+    filter: brightness(30%);
+}
+.item-link{
     display: block;
+    text-decoration: none;
+}
+.txt-desc{
+    font-weight: 300;
+    font-size: 14px;
+    color: #5D5D5D;
+}
+.txt-price{
+    font-size: 16px;
+    color: #F16D7F;
+    margin-top: 18px;
+    display: block;
+    padding-bottom: 20px; 
+}.grid{
     font-size: 13px;
     color: #000000;
     margin-top: 25px;
     margin-bottom: 12px;
 }
-.grid-title{
-    font-weight: 300;
-    font-size: 14px;
-    color: #5D5D5D;
+.cart-box{
+    display: none;
+    position: absolute;
+    top: 98px;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
 }
-.price{
-    font-size: 16px;
-    color: #F16D7F;
-    margin-top: 18px;
-    display: block;
-    padding-bottom: 20px;
+.contont-item:hover .cart-box{
+    display: flex;
 }
-.button-browse{
-    margin-left: 477px;
+.cart-link{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    align-items: center;
+}
+.add-txt{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+.bro-link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.bro-txt{
     padding: 15px 39px;
-    border: 1px solid #F26376;
-    color: #F26376;
-    background: #E5E5E5;
+    color: #FFFFFF;
+    background: #F26376;
     margin-bottom: 95px;
+}
+.brow-link:hover{
+    color: #ffffff;
 }
 .footer-free{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #222224;
-    padding-left: 230px;
-    padding-right: 230px;
+    gap: 30px;
 }
 .free{
     display: flex;
     flex-direction: column;
+    width: 360px;
 }
 .image{
     width: 44px;
     height: 31px;
     padding-top: 103px;
-    margin-left: 45%;
+    margin-left: 41%;
     padding-bottom: 28px;
 }
 .free-footer{
@@ -322,9 +408,9 @@
     background: #222224;
 }
 .networks{
-    float: right;
-    margin-top: -21px;
-    display: block;
+    display: flex;
+    justify-content: end;
+    margin-top: -19px;
 }
 .copy{
     font-size: 16px;
@@ -332,4 +418,36 @@
     display: block;
     margin-left: 13px;
     padding-top: 27px;
+}
+.fa-brands{
+    font-size: 30px;
+    background-color: #fff;
+    margin-right: 8px;
+}
+.fa-instagram-square{
+    background: #F26376;
+}
+.fa-brands:hover{
+    color: blue;
+}
+.cont-prod{
+   margin-left: 273px;
+   margin-top: 11px;
+}
+.content-product{
+    background: #F7F7F7;
+
+}
+.cont-fa{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-right{
+    padding: 7px 9px;
+    background: #9F9F9F;
+    color: red;
+}
+.fa-left{
+    padding: 7px 9px;
+    background: #9F9F9F;
 }
