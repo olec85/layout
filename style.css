@@ -62,6 +62,9 @@
     font-size: 14px;
     color: #636363;
 }
+.hom:hover{
+    color: #F16D7F;
+}
 .arriva{
     font-size: 14px;
     color: #F16D7F;
@@ -401,6 +404,25 @@
     font-size: 18px;
     text-align: center;
     color: #222224;
+}
+.form{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 4%;
+}
+.email{
+    background: #E1E1E1;
+    padding: 7px 65px 6px 20px;
+}
+.submit{
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+}
+.submit:hover{
+    color: blueviolet;
 }
 .footer{
     display: block;
