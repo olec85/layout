@@ -23,6 +23,7 @@
     gap: 40px;
     padding-left: 4px;
 }
+
 .header-nav{
     display: flex;
     list-style-type: none;
@@ -306,6 +307,99 @@
     width: 100%;
     pointer-events: none;
 }
+.moschino{
+    border: 1px solid #EAEAEA;
+    margin-bottom: 128px;
+}
+.wc{
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #F16D7F;
+    text-align: center;
+    margin-top: 64px;
+}
+.mos-cheap{
+    margin-top: 28px;
+    display: block;
+    font-weight: 300;
+    font-size: 18px;
+    color: #4D4D4D;
+    text-align: center;
+}
+.compell{
+    margin-left: 26%;
+    max-width: 555px;
+    margin-top: 48px;
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+}
+.prices{
+    margin-top: 32px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    color: #EF5B70;
+    margin-bottom: 130px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin-left: 22px;
+    margin-bottom: 48px;
+    font-size: 14px;
+    color: red;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-left: 8px;
+}
+.links li{
+    list-style-type: none;
+}
+.filter{
+    margin-top: 51px;
+    margin-bottom: 64px;
+}
+.filt{
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 9px;
+}
+.pink{
+    padding-left: 36px;
+}
+.cart-boxs{
+    font-size: 16px;
+    color: #F26376;
+    margin-left: 41%;
+    width: 212px;
+    margin-bottom: 48px;
+}
+.cart-boxs:hover{
+    color: #F26376;
+}
+.add-txts{
+    color: #F26376;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+.cart-links{
+    display: flex;
+    padding: 10px;
+    border: 1px solid #EF5B70;
+    text-decoration: none;
+    align-items: center;
+}
 .contont-item:hover .cart-box{
     display: flex;
 }
@@ -457,7 +551,7 @@
    margin-top: 11px;
 }
 .content-product{
-    background: #F7F7F7;
+    background: #F7F7F7;position: relative;
 
 }
 .cont-fa{
@@ -468,8 +562,32 @@
     padding: 7px 9px;
     background: #9F9F9F;
     color: red;
+    position: absolute;
+    top: 48%;
+    right: 0;
 }
 .fa-left{
     padding: 7px 9px;
     background: #9F9F9F;
+    position: absolute;
+    top: 48%;
+    left: 0;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+    list-style-type: none;
+    margin: 0 auto;
+    border: 1px solid #000;
+    height: 44px;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 96px;
+}
+.page-item a{
+    text-decoration: none;
+}
+.page-link1{
+    color: crimson;
 }
