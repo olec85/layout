@@ -1,4 +1,4 @@
-*{
+/* No CSS *//*# sourceMappingURL=style.css.map */*{
     margin: 0;
     padding: 0;
 }
@@ -44,6 +44,10 @@
     font-size: 24px;
     color: #F16D7F;
     display: block;
+}
+.new:hover{
+    transform: scale(1.1);
+    background-color: blueviolet;
 }
 .header-home{
     margin-top: 65px;
@@ -278,6 +282,10 @@
 .contont-item:hover .item-pic{
     filter: brightness(30%);
 }
+.item-pic:hover{
+    transform: scale(1.5);
+    background-color: transparent;
+}
 .item-link{
     display: block;
     text-decoration: none;
@@ -400,6 +408,10 @@
     text-decoration: none;
     align-items: center;
 }
+.cart-links:hover{
+    transform: rotate(90deg) ;
+    background-color: blueviolet;
+}
 .contont-item:hover .cart-box{
     display: flex;
 }
@@ -420,6 +432,10 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+.bro-txt:hover{
+    transform: scale(2);
+    background-color: blueviolet;
 }
 .bro-txt{
     padding: 15px 39px;
@@ -546,6 +562,10 @@
 .fa-brands:hover{
     color: blue;
 }
+.fa-brands:hover{
+    transform: scale(2);
+    background-color: blueviolet;
+}
 .cont-prod{
    margin-left: 273px;
    margin-top: 11px;
@@ -590,4 +610,88 @@
 }
 .page-link1{
     color: crimson;
+}
+.registr{
+    margin-bottom: 96px;
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+.get{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    display: block;
+    width: 652px;
+    margin-bottom: 21px;
+   
+}
+.welc{
+    display: flex;
+    flex-direction: column;
+}
+.check{
+    
+    margin-bottom: 16px;
+}
+.check:hover{
+    transform: scale(2);
+    background-color: blueviolet;
+}
+.loyality{
+    display: flex;
+    flex-direction: column;
+    margin-left: 128px;
+}
+.has{
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+.name{
+    margin-top: 20px;
+    width: 360px;
+    height: 45px;
+    padding-left: 17px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #B1B1B1;
+}
+.checkbox{
+    margin-top: 31px;
+    margin-bottom: 34px;
+}
+.name-login{
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+}
+.please{
+    width: 359px;
+    height: 32px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin-top: 15px;
+    margin-bottom: 39px;
+}
+.submi{
+    padding: 16px 29px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    border: 1px solid #F16D7F;
+}
+.submi:hover{
+    transform: scale(2);
+    background-color: blueviolet;
+}
+.fa-solid{
+    margin-left: 10px;
+}
+.submi:hover{
+    background-color: transparent;
+    color: blueviolet;
 }
