@@ -232,9 +232,9 @@
     color: #FFFFFF;
     padding: 2px 6px;
     border-radius: 100%;
+    margin-top: -39px;
     position: absolute;
-    bottom: 21px;
-    right: -7px;
+    margin-left: 5px;
 }
 .button-item{
     position: relative;
@@ -694,4 +694,131 @@
 .submi:hover{
     background-color: transparent;
     color: blueviolet;
+}
+/*стилизация cart*/
+.carts{
+    margin-top: 96px;
+    display: flex;
+    margin-bottom: 128px;
+}
+.carts-left{
+    display: flex;
+    flex-direction: column;
+}
+.carts-up{
+    display: flex;
+    width: 652px;
+    height: 306px;
+    margin-bottom: 40px;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    background: #FFFFFF;
+}
+.cart-shop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.clear{
+    border: 1px solid #A4A4A4;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    padding: 16px 39px;
+}
+.clear:hover{
+    transform: rotate(90deg) ;
+    background-color: blueviolet;
+}
+.contin:hover{
+    transform: scale(2);
+    background-color: blueviolet;
+}
+.contin{
+    border: 1px solid #A4A4A4;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    padding: 16px 39px;
+}
+.size{
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+}
+.mango{
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 42px;
+    margin-top: 22px;
+}
+.pri{
+    font-size: 22px;
+    color: #575757;
+}
+.col{
+    font-size: 22px;
+    color: #575757;
+    margin-top: 6px;
+}
+.name-login{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+}
+.names{
+    font-weight: 300;
+    font-size: 13px;
+    color: #B1B1B1;
+    padding: 13px 120px 13px 16px;
+    margin-bottom: 20px;
+}
+.namet{
+    font-weight: 300;
+    font-size: 13px;
+    color: #222222;
+    padding: 13px 120px 13px 16px;
+    margin-bottom: 20px;
+}
+.submits{
+    font-weight: 300;
+    font-size: 11px;
+    color: #4A4A4A;
+    padding: 10px 15px;
+}
+.submits:hover{
+    transform: scale(2);
+    background-color: #EF5B70;
+}
+.carts-right{
+    margin-left: 128px;
+}
+.proced{
+    background: #F5F3F3;
+    margin-top: 57px;
+}
+.tot{
+    font-size: 11px;
+    color: #4A4A4A;
+    padding-top: 39px;
+    padding-left: 219px;
+    padding-right: 34px;
+}
+.grand-tot{
+    font-weight: 300;
+    font-size: 16px;
+    color: #222222;
+    margin-top: 12px;
+    padding-left: 153px;
+    padding-right: 37px;
+}
+.sabmit{
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    padding: 15px 35px;
+    margin-bottom: 42px;
+    margin-top: 39px;
+    margin-left: 10%;
 }

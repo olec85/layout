@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
+    <div class="container">
+        <header>
             <div class="header">
                 <ul class="header-logo">
                     <li><a href="index.html"><img src="image/logo1.svg" alt="logo1"></a></li>
@@ -31,51 +31,60 @@
                 </div>
             </div>
                 <div class="header-new">
-                    <ul class="link"><!--добавил transform-->
-                        <li> <a href="#" class="new">NEW ARRIVALS </a></li>
+                    <ul class="link">
+                        <li> <a href="#" class="new">SHOPPING CART </a></li>
                     </ul>
                 </div>
-        </div>
-</header>
-<aside>
-    <div class="container">
-        <div class="registr">
-            <div class="forma">
-                <p class="name-login">Your name</p>
-                <div>
-                    <input class="name" type="text" placeholder="First Name">
+    </header>
+    <div class="carts">
+        <div class="carts-left">
+            <div class="carts-up">
+                <img src="image/carts-up.jpg" alt="up">
+                <div class="size">
+                    <p class="mango">MANGO  PEOPLE  T-SHIRT</p>
+                    <div class="pri">Price: $300</div><!--как окрасить 300 в красный я что то не понял-->
+                    <div class="col">Color: Red</div>
+                    <div class="col">Size: Xl</div>
+                    <div class="col">Quantity:	2</div>
                 </div>
-                <div>
-                    <input class="name" type="text" placeholder="Last Name">
-                </div>
-                    <input class="checkbox" id="Male" type="checkbox"><!--как тут добавить фразы??-->
-                    <input class="checkbox" id="Male" type="checkbox">
-                    <p class="name-login">Login details</p>
-                <div>
-                    <input class="name" type="text" placeholder="Email">
-                </div>
-                <div>
-                    <input class="name" type="text" placeholder="Password">
-                </div>
-                <p class="please">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-                <button class="submi" type="submit">JOIN NOW <i class="fa fa-solid fa-arrow-right-long"></i></button><!--добавил transform-->
             </div>
-            <div class="loyality">
-                <p class="has">LOYALTY HAS ITS PERKS</p>
-                <p class="get">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
-                <div class="welc">
-                    <span class="check"><i class="fa fa-solid fa-check"></i>15% off welcome offer</span><!--добавил transform-->
-                    <span class="check"><i class="fa fa-solid fa-check"></i>Free shipping, returns and exchanges on all orders</span>
-                    <span class="check"><i class="fa fa-solid fa-check"></i>$10 off a purchase on your birthday</span>
-                    <span class="check"><i class="fa fa-solid fa-check"></i>Early access to products</span>
-                    <span class="check"><i class="fa fa-solid fa-check"></i>Exclusive offers & rewards</span>
+            <div class="carts-up">
+                <img src="image/carts-down.jpg" alt="up">
+                <div class="size">
+                    <p class="mango">MANGO  PEOPLE  T-SHIRT</p>
+                    <div class="pri">Price: $300</div>
+                    <div class="col">Color: Red</div>
+                    <div class="col">Size: Xl</div>
+                    <div class="col">Quantity:	2</div>
                 </div>
+            </div>
+            <div class="cart-shop">
+                <button class="clear" type="submit">CLEAR SHOPPING CART</button>
+                <button class="contin" type="submit">CONTINUE SHOPPING</button>
+            </div>
+        </div>
+        <div class="carts-right">
+            <div class="forma">
+                <p class="name-login">SHIPPING ADRESS</p>
+                <div>
+                    <input class="names" type="text" placeholder="Bangladesh">
+                </div>
+                <div>
+                    <input class="namet" type="text" placeholder="State">
+                </div>
+                <div>
+                    <input class="namet" type="text" placeholder="Postcode / Zip">
+                </div>
+                <button class="submits" type="submit">GET A QUOTE</button>
+            </div><!--и не понял как сделать недостающий блок-->
+            <div class="proced">
+                <div class="tot">SUB TOTAL         $900</div>
+                <div class="grand-tot">GRAND TOTAL      $900</div>
+                <button class="sabmit" type="submit">PROCEED TO CHECKOUT</button>
             </div>
         </div>
     </div>
-</aside>
 <footer>
-    <div class="container">
         <div class="footer-sub">
             <div class="footer-sub-left">
                 <div> <img src="image/Intersect.svg" class="inter" alt="int"></div>
@@ -84,15 +93,13 @@
            <div class="footer-sub-right">
                <span class="sub">SUBSCRIBE</span>
                <span class="for"> FOR OUR NEWLETTER AND PROMOTION</span>
-               <div class="form">
+               <div class="form"><!--я не понял как тут закругления сделать-->
                    <input type="email" class="email" placeholder="Enter Your Email">
                    <button type="submit" class="submit">Subscribe</button>
                </div>
            </div> 
         </div>
-    </div>
     <div class="footer">
-        <div class="container">
          <span class="copy">&copy;2021 Brand All Rights Reserved.</span>
          <div class="networks">
              <i class="fa fa-brands fa-facebook-f"></i>
@@ -100,8 +107,8 @@
              <i class="fa fa-brands fa-pinterest-p"></i>
              <i class="fa fa-brands fa-twitter"></i>
          </div>
-        </div>
     </div>
 </footer>
+    </div>
 </body>
 </html>
