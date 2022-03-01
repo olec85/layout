@@ -123,6 +123,9 @@
     margin-bottom: 11px;
     margin-left: 21px;
 }
+.menu-list:hover .mega-box{
+    display: flex;
+}
 .mega-link:hover{
     color: #F16D7F;
 }
@@ -697,9 +700,9 @@
 }
 /*стилизация cart*/
 .carts{
-    margin-top: 96px;
+    margin-top: 10%;
     display: flex;
-    margin-bottom: 128px;
+    margin-bottom: 13%;
 }
 .carts-left{
     display: flex;
@@ -707,16 +710,16 @@
 }
 .carts-up{
     display: flex;
-    width: 652px;
-    height: 306px;
-    margin-bottom: 40px;
+    width: 41em;
+    height: 19.1em;
+    margin-bottom: 2.5em;
     filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
     background: #FFFFFF;
 }
 .cart-shop{
     display: flex;
     justify-content: space-between;
-    margin-top: 72px;
+    margin-top: 4.5em;
 }
 .clear{
     border: 1px solid #A4A4A4;
@@ -743,13 +746,13 @@
 .size{
     display: flex;
     flex-direction: column;
-    margin-left: 31px;
+    margin-left: 1.9em;
 }
 .mango{
     font-size: 24px;
     color: #222222;
-    margin-bottom: 42px;
-    margin-top: 22px;
+    margin-bottom: 2.6em;
+    margin-top: 1.37em;
 }
 .pri{
     font-size: 22px;
@@ -761,7 +764,7 @@
     margin-top: 6px;
 }
 .name-login{
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     font-weight: 300;
     font-size: 16px;
     color: #222222;
@@ -770,55 +773,83 @@
     font-weight: 300;
     font-size: 13px;
     color: #B1B1B1;
-    padding: 13px 120px 13px 16px;
-    margin-bottom: 20px;
+    padding: 0.8em 7.5em 0.8em 1em;
+    margin-bottom: 1.25em;
 }
 .namet{
     font-weight: 300;
     font-size: 13px;
     color: #222222;
-    padding: 13px 120px 13px 16px;
-    margin-bottom: 20px;
+    padding: 0.8em 7.5em 0.8em 1rem;
+    margin-bottom: 1.25em;
 }
 .submits{
     font-weight: 300;
     font-size: 11px;
     color: #4A4A4A;
-    padding: 10px 15px;
+    padding: 0.62em 0.93em;
+    border: none;
 }
 .submits:hover{
     transform: scale(2);
     background-color: #EF5B70;
 }
 .carts-right{
-    margin-left: 128px;
+    margin-left: 8em;
 }
 .proced{
     background: #F5F3F3;
-    margin-top: 57px;
+    margin-top: 3.56em;
 }
 .tot{
     font-size: 11px;
     color: #4A4A4A;
-    padding-top: 39px;
-    padding-left: 219px;
-    padding-right: 34px;
+    padding-top: 2.4em;
+    padding-left: 13.68em;
+    padding-right: 2.12em;
 }
 .grand-tot{
     font-weight: 300;
     font-size: 16px;
     color: #222222;
-    margin-top: 12px;
-    padding-left: 153px;
-    padding-right: 37px;
+    margin-top: 0.75em;
+    padding-left: 9.56em;
+    padding-right: 2.3em;
 }
 .sabmit{
     font-weight: 300;
     font-size: 16px;
     color: #FFFFFF;
     background: #F16D7F;
-    padding: 15px 35px;
-    margin-bottom: 42px;
-    margin-top: 39px;
+    padding: 0.93em 2.18em;
+    margin-bottom: 2.62em;
+    margin-top: 2.43em;
     margin-left: 10%;
+}
+/*adaptiv for cart*/
+@media (max-width:768x){
+    .container{
+        max-width: 48em;
+    }
+    .header{
+        max-width: 48em;
+    }
+    .carts{
+        width: 100%;
+       
+    }
+    .cart-shop{
+        margin-top: 3.87em;
+    }
+    .footer-sub{
+        width: 48em;
+        display: flex;
+    }
+    .footer-sub-left{
+        margin-left: 12.75em;
+    }
+    .footer{
+        width: 48em;
+    }
+
 }
