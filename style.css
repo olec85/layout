@@ -216,12 +216,12 @@
    text-align: center;
 }
 .brand{
-    background: #F1E4E6;
+    
     margin-bottom: 65px;
+    background: url(image/man.png) no-repeat #F1E4E6 -40px;
 }
 .brand__wrap{
     min-height: 764px;
-    background: url(image/man.png) no-repeat -230px;
     padding: 0 100px 0 0;
     display: flex;
     align-items: center;
@@ -251,7 +251,6 @@
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
-    margin-bottom: 96px;
 }
 .offers__item{
     width: 360px;
@@ -268,6 +267,10 @@
 }
 .offers__kids{
     background: url(image/for\ kids.jpg) no-repeat;
+}
+.offers__wrap-accessories{
+    margin-top: 30px;
+    margin-bottom: 96px;
 }
 .offers__accessories {
     background: url(image/accesories.jpg);
@@ -1386,9 +1389,6 @@
             margin: 0 auto;
             padding: 0;
         }
-        .brand{
-
-        }
         .offers{
             padding: 0 16px 0 16px;
         }
@@ -1408,6 +1408,33 @@
         .offers__kids{
             width: 232px;
             height: 167px;
+        }
+        .offers__accessories{
+            margin-top: -73px;
+            margin-bottom: 154px;
+        }
+        .button__browse{
+            margin-left: 274px;
+            margin-top: 32px;
+            margin-bottom: 63px;
+        }
+        .brand{
+            background: url(image/man.png) no-repeat #F1E4E6 -197px;
+        }
+        .brand__wrap{
+            margin-left: 92px;
+        }
+        .brand__title{
+            font-weight: 900;
+            font-size: 44px;
+        }
+        .brand__text{
+            font-weight: 700;
+            font-size: 24px;
+        }
+        .brand__decor{
+            font-weight: 700;
+            font-size: 24px;
         }
     }
     
