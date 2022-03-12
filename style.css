@@ -1438,7 +1438,7 @@
             font-weight: 700;
             font-size: 24px;
         }
-    }/*почему я записывая изменения на адаптив к 375 не получаю адаптацию????*/
+    }/*375 index,catalog,product,registration,cart*/
     @media (max-width: 380px){
         .brand {
             background: #F1E4E6;
@@ -1482,9 +1482,81 @@
         .header__circle{
             display: none;
         }
+        .catalog__header{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+        }
+        .catalog__header{
+            margin-bottom: 24px;
+        }
+        .catalog__header h1{
+            margin-top: 24px;
+            margin-left: 58px;
+        }
+        .catalog__breadcrumbs{
+            margin-left: 25px;
+        }
+        .catalog__breadcrumbs li{
+            display: inline-block;
+            margin-top: 32px;
+            margin-bottom: 46px;
+        }
+        .filters{
+            margin-top: 24px;
+        }
+        .filters__right {
+            display: flex;
+            justify-content: flex-end;
+            margin-left: 61px;
+            height: 17px;
+            text-align: center;
+            width: 260px;
+            margin-bottom: 40px;
+            margin-left: 26px;
+        }
+        .filter__svg{
+            width: 25px;
+            height: 20px;
+        }
+        .features {
+            display: flex;
+            position: relative;
+            background: none;
+            border: none;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #6F6E6E;
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 0 0 20px 0;
+        }
+        .filters__left .filter__svg {
+            margin: 0 0 0 -22px;
+        }
+        .features_icon {
+            margin: 0 0 0 7px;
+        }
+        .container{
+            padding: 0 8px;
+        }
+        .summary__span{
+            display: none;
+        }
+        .featured__item {
+            width: 350px;
+            height: 580px;
+        }
         .featured__wrap{
            display: flex;
            flex-direction: column;
+        }
+        .pagination {
+           width: 283px;
+           margin-top: 40px;
+           margin-left: 45px;
+           margin-bottom: 64px;
         }
         .button__browse{
             margin-left: 83px;
