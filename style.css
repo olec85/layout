@@ -218,7 +218,7 @@
 .brand{
     
     margin-bottom: 65px;
-    background: url(image/man.png) no-repeat #F1E4E6 -40px;
+    background: url(image/man.png) no-repeat #F1E4E6 333px;
 }
 .brand__wrap{
     min-height: 764px;
@@ -1391,6 +1391,7 @@
         }
         .offers{
             padding: 0 16px 0 16px;
+            margin-top: 25px;
         }
         .offers__wrap{
             display: flex;
@@ -1409,9 +1410,9 @@
             width: 232px;
             height: 167px;
         }
-        .offers__accessories{
-            margin-top: -73px;
-            margin-bottom: 154px;
+        .offers__wrap-accessories {
+            margin-top: 22px;
+            margin-bottom: 96px;
         }
         .button__browse{
             margin-left: 274px;
@@ -1420,6 +1421,7 @@
         }
         .brand{
             background: url(image/man.png) no-repeat #F1E4E6 -197px;
+            margin: 0;
         }
         .brand__wrap{
             margin-left: 92px;
