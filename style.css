@@ -1438,6 +1438,23 @@
             font-weight: 700;
             font-size: 24px;
         }
+    }/*почему я записывая изменения на адаптив к 375 не получаю адаптацию????*/
+    @media (max-width: 375px){
+        .brand {
+            background: #F1E4E6;
+        }
+        .offers{
+            display: flex;
+            flex-direction: column;
+        }
+        .header__basket{
+            display: none;
+        }
+        .featured__wrap{
+            display: grid;
+            grid-template-columns:1fr;
+            grid-template-rows: auto;
+        }
     }
     
     
@@ -1453,24 +1470,7 @@
     
     
     
-    
-    /*под мобилы не прошло пока*/
-  @media (max-width: 375px){
-    .header{
-        padding: 0 16px 0 16px;
-    }
-    .registration{
-        padding-left: 8px;
-        padding-right: 8px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .footer__wrap{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
+ 
 
 
 
