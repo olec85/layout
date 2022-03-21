@@ -1090,8 +1090,8 @@
 }
 .vector__cart{
     position: absolute;
-    margin-left: 321px;
-    margin-top: 26px;
+    margin-left: 50%;
+    margin-top: 3%;
 }
 .carts{
     margin-top: 96px;
@@ -1201,7 +1201,7 @@
     font-size: 11px;
     color: #4A4A4A;
     padding-top: 2.4em;
-    padding-left: 21em;
+    padding-left: 63%;
     padding-right: 2.12em;
 }
 .grand-tot{
@@ -1209,7 +1209,7 @@
     font-size: 16px;
     color: #222222;
     margin-top: 0.75em;
-    padding-left: 9.56em;
+    padding-left: 43%;
     padding-right: 2.3em;
 }
 .sabmit{
@@ -1765,6 +1765,75 @@
         .footer__social{
             margin-top: 43px;
         }
+        .carts-right{
+            flex-direction: column;
+        }
+        .carts-up{
+            width: 100%;
+            height: 188px;
+        }
+        .carts__img{
+            width: 143px;
+            height: 188px;
+        }
+        .mango{
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 21px;
+        }
+        .col{
+            font-size: 14px;
+            line-height: 17px;
+        }
+        .price{
+            font-size: 14px;
+            line-height: 17px;
+        }
+        .vector__cart{
+            margin-left: 44%;
+            margin-top: 4%;
+        }
+        .cart-shop {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            margin-bottom: 48px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .clear {
+            padding: 9px 15px;
+            font-size: 12px;
+            line-height: 14px;
+            height: 33px;
+            width: 175px;
+        }
+        .contin{
+            padding: 9px 18px;
+            font-size: 12px;
+            line-height: 14px;
+            height: 33px;
+            width: 175px;
+        }
+        .proced {
+            margin-top: 39px;
+            width: 360px;
+            margin-bottom: 96px;
+            margin-left: -127px;
+        }
+        .tot{
+            padding: 0;
+            margin-left: 68%;
+            margin-top: 11%;
+        }
+        .grand-tot{
+            padding: 0;
+            margin-left: 51%;
+        }
+        .sabmit{
+            margin-left: 13%;
+        }
+    }
        
     
     
